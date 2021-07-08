@@ -18,5 +18,10 @@ public class SetValueTest {
         int num2 = 12;
         num2 %= 5; //num2 = num2 % 5;
         System.out.println(num2);
+
+        short s1 = 10;
+        //s1 = s1 + 2; //编译失败
+        s1 += 2; //结论：不会改变变量本身的数据类型
+        System.out.println(s1);
     }
 }
